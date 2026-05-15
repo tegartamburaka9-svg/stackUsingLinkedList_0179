@@ -19,3 +19,7 @@ class stack
 private:
     Node *top;
 
+stack()
+{
+    top = NULL;
+}
