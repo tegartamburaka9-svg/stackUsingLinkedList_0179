@@ -31,4 +31,4 @@ public:
     Node();
         newNode->data = value;
         newNode->next = top;
-        
+        top = newNode;
