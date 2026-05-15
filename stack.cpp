@@ -96,4 +96,21 @@ int main()
             cin >> value;
             stack.push(value);
             break;
-      
+        case 2:
+            stack.pop();
+            break;
+        case 3:
+            stack.peek();
+            break;
+        case 4:
+            cout << "Exiting program. " << endl;
+            break;
+        default:
+            cout << "Invalid choice. Try again." << endl;
+            break;
+        }
+
+        cout << endl;
+    }
+
+ 
