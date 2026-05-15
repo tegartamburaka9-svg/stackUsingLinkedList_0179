@@ -1,4 +1,4 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
 
 class Node
@@ -7,7 +7,7 @@ public:
      int data;
      Node *next;
 
-   Node()
+     Node()
     {
         next = NULL;
     }
@@ -19,7 +19,12 @@ class stack
 private:
     Node *top;
 
-stack()
-{
-    top = NULL;
-}
+public:
+    stack()
+    {
+        top = NULL;
+    }
+
+    int push(int value)
+    {
+   
