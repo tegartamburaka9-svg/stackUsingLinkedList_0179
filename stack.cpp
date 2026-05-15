@@ -49,4 +49,6 @@ public:
         delete temp;
     }
 
-    
+    void peek()
+    {
+     
